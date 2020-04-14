@@ -4,6 +4,10 @@
         <title>Homework 11</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/base.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/menu.css">
+        <link rel="stylesheet" href="../styles/footer.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -14,17 +18,17 @@
                     <img src="../images/logo.jpg" class="logo">
                     <div class="search">
                         <form>
-                            <input type="text" class="search field" placeholder="Search for Products">
-                            <button class="search btn"></button>
+                            <input type="search" class="search-field" placeholder="Search for Products">
+                            <input type="submit" value="Search" class="search-btn">
                         </form>
                     </div>
-                    <button class="btn">Log in</button>
-                    <button class="btn">Sign up</button>
+                    <button class="login btn">Log in</button>
+                    <button class="sign btn">Sign up</button>
                     <img src="../images/shortlist icon.png" class="shortlist icon">
                     <img src="../images/Cart icon.png" class="cart icon">
                 </div>
                 <div class="sub-header">
-                    <div>
+                    <div class="links_sub-header">
                         <a href="">Home Decor</a>
                         <a href="">Furniture</a>
                         <a href="">Lighting</a>
@@ -37,128 +41,136 @@
                     </div>
                 </div>
             </header>
-
-            <h2>Seller Application</h2>
+            <div class="title">
+                <h2>Seller Application</h2>
+            </div>
 
             <div class="menu">
-                <div class="information">
+                <div class="information application">
                     <a href="">Application Critaria</a>
                 </div>
-                <div class="information">
+                <div class="information company">
                     <a href="">Company Profile</a>
                 </div>
-                <div class="information">
+                <div class="information web">
+                    <a href="">Web & Social Media</a>
+                </div>
+                <div class="information contact">
                     <a href="">Contact Info</a>
                 </div>
-                <div class="information">
+                <div class="information confirm">
                     <a href="">Confirm Account</a>
                 </div>
 
             </div>
+
             <div class="base">
-                <div class="name">
+                <div class="full-name">
                     <div class="text">Name</div>
-                    <form>
-                        <input type="text" placeholder="Mr." >
-                    </form>
-                    <form>
-                        <input type="text" placeholder="First Name" >
-                    </form>
-                    <form>
-                        <input type="text" placeholder="Middle Name" >
-                    </form>
-                    <form>
-                        <input type="text" placeholder="Last Name" >
-                    </form>
+                    <div class="name">
+                        <form>
+                            <input type="text" placeholder="Mr." class="input-name mr">
+                        </form>
+                        <form>
+                            <input type="text" placeholder="First Name" class="input-name fname">
+                        </form>
+                        <form>
+                            <input type="text" placeholder="Middle Name" class="input-name mname">
+                        </form>
+                        <form>
+                            <input type="text" placeholder="Last Name" class="input-name lname">
+                        </form>
+                    </div>
                 </div>
-                <div class="title">
+                <div class="title-base">
                     <div class="text">Title</div>
                     <form>
-                        <input type="text" placeholder="eg. CEO, Owner, Designer, Merchandiser">
+                        <input type="text" placeholder="eg. CEO, Owner, Designer, Merchandiser" class="input_title-base">
                     </form>
 
                 </div>
-                <div class="business mailing address">
-                    <div class="address">
-                        <form>
-                            <label for="Street Address">Street Address</label>
-                            <input type="text" placeholder="" name="Street Address">
-                        </form>
+                <div class="business-address">
+                    <div class="btitle">business mailing address</div>
+                    <div class="bsub-title"></div>
+                    <div class="parent-address">
+                        <div class="address">
+                            <form>
+                                <div>Street Address</div>
+                                <input type="text" name="Street Address" class="address street">
+                            </form>
+                        </div>
+                        <div class="address">
+                            <form>
+                                <div>Apt / Suite / Other</div>
+                                <input type="text" name="Suite" class="address apt">
+                            </form>
+                        </div>
+                        <div class="address city">
+                            <form>
+                                <div>City</div>
+                                <input type="text" name="city" class="address city">
+                            </form>
+                        </div>
+                        <div class="address">
+                            <form>
+                                <div>Zip / Postal Code</div>
+                                <input type="text" name="zip" class="address zip">
+                            </form>
+                        </div>
+                        <div class="address country">
+                            <form>
+                                <div>Country</div>
+                                <input type="text" name="country" placeholder="Select country" class="address country">
+                            </form>
+                        </div>
+                        <div class="address phone">
+                            <form>
+                                <div>Phone Number</div>
+                                <input type="text" name="phone-number" class="address phone">
+                                <p class="validate-text">To Validate your account please enter valid mobile Number to receive confirmation code</p>
+                            </form>
+                        </div>
                     </div>
-                    <div class="address">
-                        <form>
-                            <label for="Suite">Apt / Suite / Other</label>
-                            <input type="text" name="Suite">
-                        </form>
+
+                    <div class="btn-base">
+                        <button class="goback btn">Go back</button>
                     </div>
-                    <div class="address">
-                        <form>
-                            <label for="city">City</label>
-                            <input type="text" name="city">
-                        </form>
+                    <div class="group">
+                        By Submitting this application, you agree to the
                     </div>
-                    <div class="address">
-                        <form>
-                            <label for="zip">Zip / Postal Code</label>
-                            <input type="text" name="zip">
-                        </form>
-                    </div>
-                    <div class="address">
-                        <form>
-                            <label for="country">Country</label>
-                            <select id="countries" name="country">
-                              <option value="united states">United States</option>
-                              <option value="united kingdom">United Kingdom</option>
-                              <option value="russia">Russia</option>
-                              <option value="ukraine">Ukraine</option>
-                            </select>
-                            <input type="submit">
-                          </form>
-                    </div>
-                    <div class="phone number">
-                        <form>
-                            <label for="phone-number">Phone Number</label>
-                            <input type="number" name="phone-number">
-                            <p>To Validate your account please enter valid mobile Number to receive confirmation code</p>
-                        </form>
+                    <div class="btn">
+                        <button class="submit">Submit Application</button>
                     </div>
                 </div>
-                <div class="btn">
-                    <button class="go back btn"></button>
-                </div>
-                <div class="group">
-                    <p>By Submitting this application, you agree to the</p>
-                </div>
-                <div class="submit application btn">
-                    <button class="submit">Submit Application</button>
-                </div>
+                
+            
             </div>
 
             <footer>
-                <div class="secondary footer">
-                    <div class="how we help">
+                <div class="secondary-footer">
+                    <div class="help wehelp">
                         <h3>How We Help</h3>
-                        <a href="">Retailers</a>
-                        <a href="">Interiors Designers</a>
-                        <a href="">Product Designers</a>
-                        <a href="">Wholesalers / Importers </a>
-                        <a href="">Artisans</a>
+                        <p><a href="">Retailers</a></p>
+                        <p><a href="">Interiors Designers</a></p>
+                        <p><a href="">Product Designers</a></p>
+                        <p><a href="">Wholesalers / Importers </a></p>
+                        <p><a href="">Artisans</a></p>
                     </div>
-                    <div class="get to know us">
+                    <div class="help know">
                         <h3>Get to Know Us</h3>
-                        <a href="">About</a>
-                        <a href="">Policies</a>
-                        <a href="">Careers</a>
-                        <a href="">Press</a>
+                        <p><a href="">About</a></p>
+                        <p><a href="">Policies</a></p>
+                        <p><a href="">Careers</a></p>
+                        <p><a href="">Press</a></p>
                         
                     </div>
-                    <div class="join the community">
+                    <div class="help community">
                         <h3>Join the Community</h3>
-                        <a href="">Upcoming Events</a>
-                        <a href="">Become a Buyer</a>
-                        <a href="">Become a Seller</a>
+                        <p><a href="">Upcoming Events</a></p>
+                        <p><a href="">Become a Buyer</a></p>
+                        <p><a href="">Become a Seller</a></p>
                     </div>
-                    <div class="follow us">
+                    <div class="help follow">
                         <h3>Follow Us</h3>
                         <div class="social">
                             <img src="../images/fb icon.png" class="social-icon">
@@ -179,10 +191,11 @@
                     </div>
                     
                 </div>
+                <div class="line"></div>
                 <div class="footer">
                     <div>
-                        <a href="">Terms & Conditions</a>
-                        <a href="">Privacy</a>
+                        <a href="" class="links_footer">Terms & Conditions</a>
+                        <a href="" class="links_footer">Privacy</a>
                     </div>
                 </div>
             </footer>
