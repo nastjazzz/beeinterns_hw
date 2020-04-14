@@ -11,16 +11,13 @@
 .full-name {
     width: 930px;
     height: 65px;
-    /* background-color: rgb(188, 236, 133); */
     margin: auto;
     margin-top: 30px;
-    /* margin-bottom: 20px; */
 }
 
 .text {
     width: 66px;
     height: 17px;
-    /* outline: 1px solid black; */
     margin-bottom: 9px;
     font-style: normal;
     font-weight: 500;
@@ -51,7 +48,6 @@ input.lname {
 }
 
 .title-base {
-    /* background-color: chartreuse; */
     margin: auto;
     width: 930px;
     height: 65px;
@@ -68,7 +64,6 @@ input.lname {
 }
 
 .business-address {
-    /* background: rgba(0, 255, 255, 0.61); */
     width: 930px;
     height: 400px;
     margin: auto;
@@ -79,7 +74,6 @@ input.lname {
     text-transform: uppercase;
     height: 17px;
     width: 230px;
-    /* background-color: darkgrey; */
     margin-bottom: 15px;
     color: #007AFF;
 }
@@ -115,7 +109,6 @@ input.address {
 .parent-address {
     width: 950px;
     height: 250px;
-    /* background: darkseagreen; */
     position: relative;
 }
 
@@ -151,7 +144,6 @@ input.address {
 
 div.country > input {
     color: #878786;
-    /* padding-left: 8px; */
 }
 
 p.validate-text {
@@ -165,16 +157,11 @@ button.submit {
     background: #007AFF;
     padding: 11px 13px;
     font-style: normal;
-font-size: 14px;
-
-
-text-align: center;
-
-color: #FFFFFF;
-border: none;
-border-radius: 3px;
-
-
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
 }
 
 .btn-base {
@@ -183,7 +170,6 @@ border-radius: 3px;
 }
 
 .goback {
-    /* float: left; */
     background: rgb(57, 122, 97);
     position: absolute;
     top: 800px;
@@ -200,7 +186,7 @@ div.group {
     color: #878786;
 }
 
-div.group > p{
+div.group > p {
     width: 440px;
     height: 17px;
     background: lightyellow;
@@ -213,9 +199,3 @@ button.submit {
     left: 1320px;
     top: 800px;
 }
-
-/* div.submit {
-    width: 150px;
-    height: 40px;
-    background: limegreen;
-} */

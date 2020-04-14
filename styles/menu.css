@@ -8,14 +8,11 @@
 }
 
 h2 {
-    
-
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
     line-height: 31px;
     text-align: center;
-
     color: #000000;
 }
 
@@ -43,8 +40,7 @@ div.contact a{
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    letter-spacing: 0.28008px;
-
+    letter-spacing: 0.3px;
     color: #878786;
     text-decoration: none;
 }
