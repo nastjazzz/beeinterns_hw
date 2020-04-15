@@ -1,0 +1,81 @@
+/* .speaker {
+    background: silver;
+} */
+
+.wrapper_speaker {
+    display: flex;
+
+    max-width: 1240px;
+    margin: 0 auto;
+
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.speaker-picture {
+    position: absolute;
+    left: 45%;
+    top: 0;
+}
+
+.speaker-info {
+    width: 100%;
+    max-width: 480px;
+    padding: 216px 0 180px;
+    margin-right: auto;
+    
+}
+
+.speaker-info > .action-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.speaker-info > .action-box > .price {
+    color: #000;
+}
+
+button.speaker {
+    background: #000000;
+    color: #fff;
+}
+
+.sub-title_speaker {
+    font-size: 16px;
+    color: #2B2835;
+}
+
+.plus {
+    position: absolute;
+    top: 200px;
+    left: 230px;
+}
+
+.title_speaker, .plus {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: #2B2835;
+}
+
+.color {
+    margin-bottom: 50px;
+}
+
+.title_colors {
+    font-size: 40px;
+    color: #2B2835;
+    line-height: 55px;
+}
+
+.sub-title_colors {
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2835;
+    margin-bottom: 20px;
+}
+
+.speaker-info .extra-text {
+    color: rgba(0, 0, 0, 0.5)
+}
