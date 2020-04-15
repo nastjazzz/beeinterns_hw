@@ -1,6 +1,6 @@
-/* .earphones {
-    background: darkblue;
-} */
+.earphones {
+    margin-bottom: 70px;
+}
 
 .base {
     display: flex;
@@ -45,8 +45,6 @@ img.earphone3 {
     left: 125px;
 }
 
-
-
 button.earphone {
     background: #000000;
     color: #fff;
@@ -54,11 +52,9 @@ button.earphone {
 
 .block-earphone .action-box .price {
     font-style: normal;
-font-weight: 600;
-font-size: 25px;
-/* line-height: 30px; */
-
-color: #9D8220;
+    font-weight: 600;
+    font-size: 25px;
+    color: #9D8220;
 }
 
 .name {
