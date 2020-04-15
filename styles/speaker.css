@@ -75,3 +75,38 @@ button.speaker {
 .speaker-info .extra-text {
     color: rgba(0, 0, 0, 0.5)
 }
+
+a.clr {
+    width: 40px;
+    height: 40px;
+    /* border-radius: 40px; */
+    border: none;
+}
+
+.color_css {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 150px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.color_css a {
+    margin-right: 15px;
+}
+
+.clr img {
+    margin-right: 15px;
+    width: 100%;
+    height: auto;
+}
+
+a.clr img {
+    border: 1px solid #ffffff; 
+    /* border-radius: 40px; */
+}       
+.clr:hover img  {
+    border: 1px solid #303030; 
+    border-radius: 40px;
+}
