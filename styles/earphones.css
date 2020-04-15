@@ -66,6 +66,9 @@ color: #9D8220;
     line-height: 55px;
     color: #2B2835;
     margin-bottom: 5px;
+    position: absolute;
+    top: 330px;
+    left: 50px;
 }
 
 .description {
@@ -80,6 +83,6 @@ color: #9D8220;
 
 .characteristics {
     position: absolute;
-    top: 330px;
+    top: 390px;
     left: 50px;
 }
