@@ -8,15 +8,17 @@
     
     border: 1px solid #C6C6C5;
     box-sizing: border-box;
+
+    padding: 40px 20px;
+    
 }
 
 /* весь блок с именами  */
 
 .full-name {
-    width: 930px;
-    height: 65px;
+    width: 100%;
+    height: auto;
     margin: auto;
-    margin-top: 25px;
     margin-bottom: 15px;
 }
 
@@ -25,7 +27,7 @@
 .text {
     width: 66px;
     height: 17px;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
     font-size: 14px;
 }
 
@@ -50,14 +52,13 @@ input.input-name:first-child {
     margin-right: 0;
 }
 
-/*блок с тайтлом и 1 инпутом */
+/* блок с тайтлом и 1 инпутом */
 
 .title-base {
     margin: auto;
-    width: 930px;
-    height: 65px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
 }
 
 /* длинный инпут */
@@ -66,16 +67,16 @@ input.input-name:first-child {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 16px;
-    /* border-radius: 3px; */
+    
     width: 98%;
-    /* border: 1px solid #C6C6C5; */
+    
 }
 
 /* весь блок с адресом */
 
 .business-address {
-    width: 930px;
-    height: 400px;
+    width: 100%;
+    height: auto;
     margin: auto;
     margin-top: 30px;
 }
@@ -90,12 +91,12 @@ input.input-name:first-child {
     color: #007AFF;
 }
 
-/* подзаголовок бизнес */
+/* длинная линия */
 
 .sub-title_business {
-    width: 930px;
+    width: 100%;
     height: 4px;
-    margin: auto;
+    
     background-color: rgba(198, 198, 197, 0.51);
     
     margin-bottom: 20px;
@@ -112,7 +113,7 @@ input.input-name:first-child {
 
 .address {
     float: left;
-    width: 300px;
+    width: 298px;
     height: 40px;
     margin-right: 18px;
     margin-bottom: 40px;
@@ -139,24 +140,14 @@ input.input-name:first-child {
 /* инпуты адресов */
 
 input.address {
-    background: #FFFFFF;
-    /* border: 1px solid #C6C6C5; */
-    box-sizing: border-box;
-    width: 298px;
+    width: 100%;
     height: 40px;
-    /* border-radius: 3px; */
+
+    box-sizing: border-box;
+    
     padding-left: 10px;
     margin-bottom: 10px;
 }
-
-/* */
-
-div.phone{
-    /* margin-right: 0; */
-    margin-bottom: 10px;
-}
-
-/* */
 
 .validate-text {
     width: 300px;
