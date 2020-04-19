@@ -4,19 +4,23 @@ header {
 }
 
 .header {
-    width: 70%;
+    width: 90%;
     height: 100px;
     background: #FFFFFF;
-    position: relative;
     margin: auto;
 }
 
-img.logo {
+.logo {
     position: absolute;
-    width: 169px;
-    height: 24px;
-    left: 80px;
-    top: 38px;
+    width: 170px;
+    height: 25px;
+    left: 75px;
+    top: 40px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
 }
 
 .search {
@@ -36,33 +40,33 @@ input[type="search"] {
     padding-bottom: 12px;
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
-    border-radius: 3px;
 }
 
 input.search-btn {
     position: absolute;
     right: 0;
     top: 0;
-    width: 75px; /* Ширина кнопки */
-    height: 40px; /* Высота кнопки */
+
+    font-size: 14px;
+    padding: 11px 13px;
+
     border: none; 
     background:  #007AFF;
     color: white;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    font-style: normal;
-    font-size: 14px;
+
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
 }
 
 button.btn {
-    background: white;
-    font-style: normal;
+    background: none;
+    
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
+    
     border: 1px solid #757575;
     color: #757575;
-    border-radius: 3px;
+    
     padding: 12px 20px;
 }
 
@@ -78,15 +82,25 @@ button.btn {
     left: 1144px;
 }
 
-img.shortlist {
+/* .icons {
+    border: none;
+    background: none;
+} */
+
+button.shortlist {
+    width: 30px;
+    height: 25px;
     position: absolute;
     top: 42px;
     left: 1271px;
-    width: 28px;
-    height: 26px;
 }
 
-img.cart {
+img.shortlist {
+    width: 100%;
+    height: auto;
+}
+
+button.cart {
     position: absolute;
     top: 38px;
     left: 1326px;
@@ -94,26 +108,26 @@ img.cart {
     height: 30px;
 }
 
+img.cart {
+    width: 100%;
+    height: auto;
+}
+
 .sub-header {
-    width: 70%;
-    height: 45px;
+    width: 90%;
+    height: auto;
     margin: auto;
+    padding: 12px 0;
 }
 
 .links_sub-header {
-    position: absolute;
-    top: 120px;
-    left: 385px;
-    width: 900px;
+    width: auto;
     height: 18px;
-    margin-bottom: 14px;
 }
 
 .links_sub-header a {
     margin-right: 35px;
     text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 18px;
     color: #737270;
