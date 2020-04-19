@@ -86,31 +86,35 @@ a.clr {
 }
 
 .color_css {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    width: 150px;
+    width: auto;
     height: auto;
     margin-bottom: 40px;
 }
 
-.color_css a {
-    margin-right: 15px;
+.color_btn {
+    width: 37px;
+    height: 37px;
+    border-radius: 100px;
+    border: 1px solid #EAEAEA;
+    cursor: pointer;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background:#DD5656;
+    margin-right: 14px;
 }
 
-.clr img {
-    margin-right: 15px;
-    width: 100%;
-    height: auto;
+.color_btn:last-child {
+    margin-right: 0;
+    background: black;
 }
 
-a.clr img {
-    border: 1px solid #ffffff; 
-    /* border-radius: 40px; */
-}       
-.clr:hover img  {
-    border: 1px solid #303030; 
-    border-radius: 40px;
+.color_btn:first-child {
+    background: white;
+}
+
+.color_btn:hover {
+    border: 1.5px solid #303030; 
+    border-radius: 100px;
+    transition: 0.3s;
 }
 
 .dots {
