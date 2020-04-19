@@ -8,10 +8,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* .container { */
-    /* align-items: center; */
-/* } */
-
 input::placeholder, .group, .validate-text {
     color: #878786;
 }

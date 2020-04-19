@@ -35,12 +35,9 @@ div.contact a{
 }
 
 .information a {
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
+
     letter-spacing: 0.3px;
     color: #878786;
-    text-decoration: none;
 }

@@ -69,7 +69,6 @@ input.input-name:first-child {
     padding-left: 16px;
     
     width: 98%;
-    
 }
 
 /* весь блок с адресом */
@@ -77,6 +76,7 @@ input.input-name:first-child {
 .business-address {
     width: 100%;
     height: auto;
+
     margin: auto;
     margin-top: 30px;
 }
@@ -84,28 +84,27 @@ input.input-name:first-child {
 /* заголовок бизнес */
 
 .title_business {
-    text-transform: uppercase;
-    height: 17px;
-    width: 230px;
-    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    
     color: #007AFF;
+    text-transform: uppercase;
+   
+    margin-bottom: 15px;
+    
 }
 
 /* длинная линия */
 
-.sub-title_business {
+.business-address .line {
     width: 100%;
     height: 4px;
-    
-    background-color: rgba(198, 198, 197, 0.51);
-    
+    opacity: 0.5;
     margin-bottom: 20px;
 }
 
-/* */
-
 .parent-address {
-    width: 950px;
+    width: 100%;
     height: 240px;
 }
 
@@ -113,20 +112,17 @@ input.input-name:first-child {
 
 .address {
     float: left;
-    width: 298px;
-    height: 40px;
+    width: 32%;
+    height: auto;
     margin-right: 18px;
-    margin-bottom: 40px;
-
 }
 
 /* заголовок каждого блока с адресом */
 
 .detailed-address {
-    width: 125px;
-    height: 17px;
-    font-style: normal;
-    font-weight: 500;
+    width: 100%;
+    height: auto;
+    
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -141,17 +137,17 @@ input.input-name:first-child {
 
 input.address {
     width: 100%;
-    height: 40px;
+    height: auto;
 
     box-sizing: border-box;
     
-    padding-left: 10px;
+    padding: 10px 10px;
     margin-bottom: 10px;
 }
 
 .validate-text {
-    width: 300px;
-    height: 35px;
+    width: 100%;
+    height: auto;
     font-size: 14px;
 }
 

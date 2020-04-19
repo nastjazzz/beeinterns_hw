@@ -12,10 +12,11 @@ header {
 
 .logo {
     position: absolute;
-    width: 170px;
-    height: 25px;
     left: 75px;
     top: 40px;
+
+    width: 170px;
+    height: 25px;
 }
 
 .logo img {
@@ -25,20 +26,21 @@ header {
 
 .search {
     position: absolute;
-    width: 400px;
-    height: 40px;
     left: 378px;
     top: 33px;
+
+    width: 400px;
+    height: 40px;
+    
     box-sizing: border-box;
 }
 
 input[type="search"] {
     width: 400px;
     height: 40px;
-    padding-left: 14px;
-    padding-top: 11px;
-    padding-bottom: 12px;
-    background: #FFFFFF;
+
+    padding: 11px 0 12px 14px;
+    
     border: 1px solid #E0E0E0;
 }
 
@@ -50,7 +52,7 @@ input.search-btn {
     font-size: 14px;
     padding: 11px 13px;
 
-    border: none; 
+    border: none;
     background:  #007AFF;
     color: white;
 
@@ -82,33 +84,26 @@ button.btn {
     left: 1144px;
 }
 
-/* .icons {
-    border: none;
-    background: none;
-} */
-
 button.shortlist {
-    width: 30px;
-    height: 25px;
     position: absolute;
     top: 42px;
-    left: 1271px;
-}
+    left: 1270px;
 
-img.shortlist {
-    width: 100%;
-    height: auto;
+    width: 30px;
+    height: 25px;
+    
 }
 
 button.cart {
     position: absolute;
     top: 38px;
-    left: 1326px;
+    left: 1330px;
+
     width: 36px;
     height: 30px;
 }
 
-img.cart {
+img.icon {
     width: 100%;
     height: auto;
 }
