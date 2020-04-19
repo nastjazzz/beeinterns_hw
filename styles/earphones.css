@@ -6,24 +6,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.block-earphone:last-child {
-    margin-right: 0;
+    
 }
 
 .block-earphone {
+    background: #F8F8F9;
+
     width: 400px;
     height: 560px;
-    background: #F8F8F9;
-    margin-right: 40px;
+    
+    margin: 20px;
+
     position: relative;
-    margin-bottom: 30px;
+    list-style-type: none;
 }
 
 img.earphone1 {
     width: 230px;
     height: 480px;
+    
     position: absolute;
     top: 40px;
     left: 120px;
@@ -32,6 +33,7 @@ img.earphone1 {
 img.earphone2 {
     width: 300px;
     height: 430px;
+
     position: absolute;
     top: -20px;
     left: 55px;
@@ -40,6 +42,7 @@ img.earphone2 {
 img.earphone3 {
     width: 230px;
     height: 425px;
+
     position: absolute;
     top: 100px;
     left: 125px;
@@ -58,27 +61,31 @@ button.earphone {
 }
 
 .name {
-    font-size: 50px;
-    line-height: 55px;
-    color: #2B2835;
-    margin-bottom: 5px;
     position: absolute;
     top: 330px;
     left: 50px;
+
+    font-size: 50px;
+    line-height: 55px;
+    color: #2B2835;
 }
 
+
 .description {
+    position: absolute;
+    top: 390px;
+    left: 50px;
+
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
     color: #030303;
     width: 270px;
-    margin-bottom: 20px;
 }
 
-.characteristics {
+.block-earphone .action-box {
     position: absolute;
-    top: 390px;
+    top: 480px;
     left: 50px;
 }
