@@ -6,9 +6,8 @@ footer {
 }
 
 .secondary-footer {
-    width: auto;
-    height: auto;
-    
+    width: 90%;
+    margin: auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -17,6 +16,8 @@ footer {
     font-size: 14px;
     line-height: 30px;
     color: #1C1C1B;
+
+    border-bottom: 3px solid #C6C6C5;
 }
 
 .footer {
@@ -57,13 +58,6 @@ footer {
     color: #878786;
     font-size: 14px;
     margin-right: 20px;
-}
-
-.line {
-    width: 90%;
-    height: 3px;
-    background: #C6C6C5;
-    margin: auto;
 }
 
 .socials > img {
