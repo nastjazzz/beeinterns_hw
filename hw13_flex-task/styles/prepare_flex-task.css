@@ -1,0 +1,95 @@
+.preparation {
+    /* width: 1125px; */
+    padding: 25px 20px 15px 25px;
+    background-color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    /* margin: auto; */
+}
+
+.blocks_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    background-color: rgba(0, 84, 254, 0.04);
+    border-radius: 8px;
+    padding: 8px;
+    /* padding-top: 8px;
+    padding-left: 8px; */
+}
+
+.teams, .test-plan {
+    height: 240px;
+}
+
+.teams {
+    width: 195px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.test-plan {
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.test-tasks {
+    width: 195px;
+    height: 440px;
+}
+
+.review {
+    width: 870px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail_review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details {
+    background: #d3d;
+}
+
+.title_block {
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4A4A;
+    margin-bottom: 2px;
+}
+
+.subtitle_block {
+    margin-bottom: 16px;
+    color: rgba(74, 74, 74, 0.5);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.test-tasks .title_block {
+    margin-bottom: 7px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px dotted black;
+}
+
+.step {
+    height: 160px;
+    width: 98px;
+    margin: 8px;
+    background-color: rgba(0, 84, 254, 0.04);
+}
