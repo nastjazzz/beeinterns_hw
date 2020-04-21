@@ -66,15 +66,20 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    border-bottom: 1px dashed rgba(74, 74, 74, 0.404);
 }
 
 .step {
-    height: 160px;
-    width: 98px;
     margin: 8px;
     background-color: rgba(0, 84, 254, 0.04);
     border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(74, 74, 74, 0.5);
+    padding-left: 5px;
+    padding-right: 85px;
+    padding-top: 85px;
+    padding-bottom: 57px;
 }
 
 .step:first-child {
@@ -83,4 +88,20 @@
 
 .step:last-child {
     margin-right: 0;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+}
+.line {
+    border-bottom: 1.5px dashed rgba(74, 74, 74, 0.25);
+    width: 100%;
+}
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-left: 5px solid rgba(74, 74, 74, 0.25);
+    border-bottom: 3px solid transparent;
 }

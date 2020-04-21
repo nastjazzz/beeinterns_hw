@@ -2,15 +2,12 @@
     width: 870px;
     padding-right: 40px;
 }
+
 .detail_review {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-}
-
-.email__detail_review .additional-info:last-child {
-    font-weight: bold;
+    margin-top: 15px;
 }
 
 .additional-info {
@@ -22,11 +19,15 @@
     width: 215px;
 }
 
+.email__detail_review .additional-info:last-child {
+    font-weight: bold;
+    margin-top: 3px;
+}
+
 .title_block {
     font-size: 14px;
     line-height: 16px;
     color: #4A4A4A;
-    margin-bottom: 21px;
 }
 
 .remainder {
@@ -63,6 +64,7 @@
     opacity: 0;
     transition: 0.3s;
 }
+
 .checkbox:checked + .fake::before {
     opacity: 1;
 }
