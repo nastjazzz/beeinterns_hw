@@ -1,12 +1,11 @@
 .preparation {
-    /* width: 1125px; */
     padding: 25px 20px 15px 25px;
     background-color: #fff;
 }
 
 .wrapper {
     display: flex;
-    /* margin: auto; */
+    
 }
 
 .blocks_wrapper {
@@ -18,8 +17,6 @@
     background-color: rgba(0, 84, 254, 0.04);
     border-radius: 8px;
     padding: 8px;
-    /* padding-top: 8px;
-    padding-left: 8px; */
 }
 
 .teams, .test-plan {
@@ -33,32 +30,17 @@
 }
 
 .test-plan {
-    width: 670px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
+
 }
 
 .test-tasks {
     width: 195px;
     height: 440px;
-}
-
-.review {
-    width: 870px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.detail_review {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.details {
-    background: #d3d;
 }
 
 .title_block {
@@ -84,7 +66,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    border-bottom: 2px dotted black;
+    border-bottom: 1px dashed rgba(74, 74, 74, 0.404);
 }
 
 .step {
@@ -92,4 +74,13 @@
     width: 98px;
     margin: 8px;
     background-color: rgba(0, 84, 254, 0.04);
+    border-radius: 8px;
+}
+
+.step:first-child {
+    margin-left: 0;
+}
+
+.step:last-child {
+    margin-right: 0;
 }

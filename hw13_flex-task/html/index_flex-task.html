@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="../styles/style_flex-task.css">
         <link rel="stylesheet" href="../styles/prepare_flex-task.css">
         <link rel="stylesheet" href="../styles/main_flex-task.css">
+        <link rel="stylesheet" href="../styles/review.css">
         <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -73,17 +74,59 @@
                                 <div class="title_block">Review before the test (check if done)</div>
                                 <div class="detail_review">
                                     <div class="details email__detail_review">
-
+                                        <div class="checkbox_wrapper">
+                                            <label class="label">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="fake"></span>
+                                                <span class="text-checkbox">Email Participants</span>
+                                            </label>
+                                        </div>
+                                        <div class="additional-info">If checked, write the date that was sent</div>
+                                        <div class="additional-info">Date:</div>
                                     </div>
                                     <div class="details reminder__detail_review">
                                         <div class="title_reminder">Reminder participants about the tests</div>
-                                        <div>
-                                            <span>Write the number and dates of the reminders<br>
-                                            If  reminder was done, please check the box</span>
+                                        <div class="additional-info">
+                                            <span>Write the number and dates of the reminders<br>If  reminder was done, please check the box</span>
+                                            <div class="checkbox_wrapper remainder">
+                                                <label class="label reminder">
+                                                    <input type="checkbox" class="checkbox">
+                                                    <span class="fake"></span>
+                                                    <span class="text-checkbox">Reminder #1  -  Date:</span>
+                                                </label>
+                                            </div>
+                                            <div class="checkbox_wrapper remainder">
+                                                <label class="label reminder">
+                                                    <input type="checkbox" class="checkbox">
+                                                    <span class="fake"></span>
+                                                    <span class="text-checkbox">Reminder #2  -  Date:</span>
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
+                                    
                                     <div class="details checkboxes__detail_review">
-
+                                        <div class="checkbox_wrapper">
+                                            <label class="label">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="fake"></span>
+                                                <span class="text-checkbox">Ethical Approval prepared and sent</span>
+                                            </label>
+                                        </div>
+                                        <div class="checkbox_wrapper">
+                                            <label class="label">
+                                                <input type="checkbox" class="checkbox" id="recording">
+                                                <span class="fake"></span>
+                                                <div class="text-checkbox">Recording consent form prepared for the test session</div>
+                                            </label>
+                                        </div>
+                                        <div class="checkbox_wrapper">
+                                            <label class="label">
+                                                <input type="checkbox" class="checkbox">
+                                                <span class="fake"></span>
+                                                <span class="text-checkbox">Usability testing checklist prepared for the test session</span>
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
