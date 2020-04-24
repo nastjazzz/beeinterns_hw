@@ -26,8 +26,6 @@ body {
 .content {
     max-width: 640px;
     margin: auto;
-
-    padding: 20px;
     font-size: 13px;
     line-height: 15px;
 
@@ -36,6 +34,11 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.09);
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .content h3 {
@@ -59,8 +62,16 @@ body {
 
 }
 
-.content img {
-    margin: auto;
+/* .tab_wrap {
+    border-left: 2px solid #0179FF;
+    padding-left: 35px;
+    transform: translate(-35px, 10px);
+} */
+
+.tab_wrap #tab___1,
+.tab_wrap #tab___2,
+.tab_wrap #tab___3 {
+    padding: 20px;
 }
 
 input {
@@ -69,13 +80,27 @@ input {
 
 
 label {
+    display: flex;
+    align-items: center;
+
     width: 100%;
     cursor: pointer;
-    background-color: gray;
-    margin: 20px 0px;
-    display: flex;
+    /* margin: 20px 0px; */
+    padding: 15px 0;
+
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #000000;
 }
-.content div {
+
+.content #tab___1,
+.content #tab___2,
+.content #tab___3 {
     display: none;
 }
 
@@ -92,4 +117,15 @@ label {
 
 .picture img {
     width: 100%;
+}
+
+.arrow {
+    border: solid rgba(0, 0, 0, 0.65);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    transform: rotate(45deg);
+    width: 5px;
+    height: 5px;
 }
