@@ -14,20 +14,19 @@ body {
 
 .content {
     margin: auto;
-    /* font-size: 13px;
-    line-height: 15px;
-
-    color: #000000; */
 
     border: 1px solid rgba(0, 0, 0, 0.09);
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
+    position: relative;
 }
 
 h1 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
+
+
 
 .details {
     font-size: 13px;
@@ -58,7 +57,37 @@ h1 {
 
 .details img {
     width: 80%;
-    margin: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.details summary::-webkit-details-marker {
+    display: none
+}
+
+.details summary {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+summary:before {
+    content: "";
+    border: solid rgba(0, 0, 0, 0.65);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-right: 10px;
+    width: 1px;
+    height: 1px;
+    transform: rotate(-45deg);
+    transition: all linear .3s;
+}
+
+.details[open] summary:before {
+    transform: rotate(45deg);
 }
 
 summary {
