@@ -8,28 +8,16 @@ body {
 }
 
 .container {
-    width: 100vh;
     max-width: 640px;
     margin: auto;
-}
-
-.title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 41px;
-    color: #000000;
-    margin: auto;
-
 }
 
 .content {
-    max-width: 640px;
     margin: auto;
-    font-size: 13px;
+    /* font-size: 13px;
     line-height: 15px;
 
-    color: #000000;
+    color: #000000; */
 
     border: 1px solid rgba(0, 0, 0, 0.09);
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
@@ -41,91 +29,43 @@ h1 {
     margin-bottom: 30px;
 }
 
-.content h3 {
-    font-style: normal;
+.details {
+    font-size: 13px;
+    line-height: 20px;
+    color: #5D5D5D;
+}
+
+.details h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
     color: #5D5D5D;
-
-    margin-bottom: 10px;
 }
 
-.content p {
-    font-style: normal;
-    font-weight: normal;
+.details p {
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
     font-size: 13px;
     line-height: 20px;
     color: #5D5D5D;
-
-    margin-bottom: 30px;
-
 }
 
-/* .tab_wrap {
-    border-left: 2px solid #0179FF;
-    padding-left: 35px;
-    transform: translate(-35px, 10px);
-} */
-
-.tab_wrap #tab___1,
-.tab_wrap #tab___2,
-.tab_wrap #tab___3 {
-    padding: 20px;
+.details img {
+    width: 80%;
+    margin: auto;
 }
 
-input {
-    display: none;
-}
-
-
-label {
-    display: flex;
-    align-items: center;
-
-    width: 100%;
-    cursor: pointer;
-    /* margin: 20px 0px; */
-    padding: 15px 0;
-
+summary {
+    padding: 15px 15px ;
     background: #F5F5F5;
     border: 1px solid #E8E8E8;
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 15px;
-
-    color: #000000;
-}
-
-.content #tab___1,
-.content #tab___2,
-.content #tab___3 {
-    display: none;
-}
-
-#tab-1:checked~#tab___1, 
-#tab-2:checked~#tab___2, 
-#tab-3:checked~#tab___3 {
-    display: block;
-}
-
-.picture {
-    width: 100%;
-    height: auto;
-}
-
-.picture img {
-    width: 100%;
-}
-
-.arrow {
-    border: solid rgba(0, 0, 0, 0.65);
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 20px;
-    transform: rotate(45deg);
-    width: 5px;
-    height: 5px;
+    color: black;
 }
