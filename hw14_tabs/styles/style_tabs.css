@@ -112,6 +112,20 @@ body {
     box-shadow: none;
 }
 
+/* заголовок */ 
+
+summary {
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+
+    color: black;
+    font-size: 13px;
+    line-height: 15px;
+
+    padding: 15px 15px;
+}
+
 /* стрелка у заголовка */
 
 summary:before {
@@ -133,16 +147,3 @@ summary:before {
     transform: rotate(45deg);
 }
 
-/* заголовок */ 
-
-summary {
-    background: #F5F5F5;
-    border: 1px solid #E8E8E8;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-
-    color: black;
-    font-size: 13px;
-    line-height: 15px;
-
-    padding: 15px 15px;
-}
