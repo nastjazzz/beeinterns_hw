@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder, .group, .validate-text {
+    color: #878786;
+}
+
+input {
+    border: 1px solid #C6C6C5;
+    border-radius: 3px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
