@@ -1,0 +1,68 @@
+.wrapper {
+    background-image: url(../images/mobile-background.png);
+    /* width: 100%; */
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 0 20px;
+    border-bottom: 1px solid #A3A3A3;;   
+}
+
+.burger-menu { 
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.burger-menu img {
+    width: 100%;
+}
+
+.models {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    font-size: 15px;
+    border-bottom: 4px solid #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
+.name {
+    width: 150px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.details img {
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.text_description {
+    font-size: 15px;
+    line-height: 23px;
+    color: #F6F;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,21 @@
+.footer {
+    background-color: #404754;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+}
+
+.links_footer {
+    font-size: 17px;
+    font-style: normal;
+font-weight: normal;
+
+    text-decoration-line: underline;
+    color: #BAC5D3;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: #BAC5D3;
+    margin-top: 20px;
+}

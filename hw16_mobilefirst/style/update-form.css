@@ -1,0 +1,23 @@
+.update-form {
+    background: linear-gradient(0deg, rgba(9, 9, 9, 0.465718), rgba(9, 9, 9, 0.465718)), #1F1F2F;
+    padding: 30px 20px 40px 20px;
+    box-sizing: border-box;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input:last-child {
+    background: #F92251;
+    color: white;
+}
