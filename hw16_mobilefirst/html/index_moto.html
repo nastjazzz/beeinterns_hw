@@ -7,44 +7,47 @@
         <link href="../style/footer.css" rel="stylesheet">
         <link href="../style/update-form.css" rel="stylesheet">
         <link href="../style/content.css" rel="stylesheet">
+        <link href="../style/header.css" rel="stylesheet">
+        <link href="../style/media.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="wrapper">
                 <header class="header">
                     <div class="burger-menu">
-                        <img src="../images/BurgerMenu.png">
+                        <img src="../images/BurgerMenu.svg">
                     </div>
                     <div class="models">Models</div>
                     <div class="search-form">
-
+                        <form class="form">
+                            <input type="search" placeholder="Search for details…" class="search-input">
+                        </form>
                     </div>
                 </header>
-                <div class="content">
-                    <!-- ПОДУМАТЬ КАК СДЕЛАТЬ ПРАВИЛЬНО!!! ТАК НЕ НРАВИТСЯ -->
-                    <div class="description">
-                        <div class="name">Honda Sport CRF 450RX</div>
-                        <!-- придумать название класса -->
-                        <div >
-                            <div class="details play">
-                                <img src="../images/play.png">
-                                <span class="text_description">Watch film</span>
-                            </div>
-                            <div class="details bookmark">
-                                <img src="../images/bookmark.png">
-                                <span class="text_description">Bookmark for later</span>
-                            </div>
+                <div class="content">                    
+                    <div class="name">Honda<br>Sport<br> CRF 450RX</div>
+                    <div class="heading">
+                        <div class="heading-item play">
+                            <img src="../images/play.svg">
+                            <span class="text_description">Watch film</span>
+                        </div>
+                        <div class="heading-item bookmark">
+                            <img src="../images/bookmark.svg">
+                            <span class="text_description">Bookmark for later</span>
+                        </div>
+                    </div>
+                        <div class="description">
                             <div class="details manufacture">
                                 <span class="text_description">Manufacturer</span>
-                                <div class="name_manufacture">Honda</div>
+                                <div class="result-description">Honda</div>
                             </div>
                             <div class="details production">
                                 <span class="text_description">Production</span>
-                                <div class="">2019</div>
+                                <div class="result-description">2019</div>
                             </div>
                             <div class="details engine">
                                 <span class="text_description">Engine</span>
-                                <div class="">0.45 L PGM-FI</div>
+                                <div class="result-description">0.45 L PGM-FI</div>
                             </div>
                             <div class="review">
                                 <span class="text_description">Review</span>
@@ -53,15 +56,14 @@
                                     <img src="../images/red star.png">
                                     <img src="../images/red star.png">
                                     <img src="../images/star.png">
-                                    <span >4.0/5</span>
+                                    <div class="result-description">4.0/5</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <div class="update-form">
-                <div class="text">
+                <div class="title_update-form">
                     Sign up for our email newsletter and get the latest our company news.
                     Get free trial for 3 month.
                 </div>
@@ -73,10 +75,12 @@
 
             </div>
             <footer class="footer">
-                <div><a href="#" class="links_footer">Cars</a></div>
-                <div><a href="#" class="links_footer">Motorcycles</a></div>
-                <div><a href="#" class="links_footer">Engines</a></div>
-                <div><a href="#" class="links_footer">Water moto technology</a></div>
+                <div class="footer-item">
+                    <div><a href="#" class="links_footer">Cars</a></div>
+                    <div><a href="#" class="links_footer">Motorcycles</a></div>
+                    <div><a href="#" class="links_footer">Engines</a></div>
+                    <div><a href="#" class="links_footer">Water moto technology</a></div>
+                </div>
                 <div class="author">© 2020, BeeInterns /</div>
             </footer>
         </div>

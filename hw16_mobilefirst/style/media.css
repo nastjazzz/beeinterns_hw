@@ -1,0 +1,111 @@
+@media (min-width: 768px) {
+
+    /* HEADER */
+
+    .wrapper {
+        background-image: url(../images/tablet-background.png);
+        background-size: cover;
+    }
+    .burger-menu {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-right: 40px;
+    }
+    .models {
+        font-size: 18px;
+        margin-right: 40px;
+    }
+    .search-input {
+        padding-left: 80px;
+        background-position: 40px;
+        background-size: 19px;
+        height: 21px;
+    }
+    .search-input::-webkit-input-placeholder { 
+        color: white;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* CONTENT */
+
+    .content {
+        padding-left: 90px;
+        width: 520px;
+
+    }
+    .name {
+        font-size: 90px;
+        font-weight: bold;
+        line-height: 100px;
+        width: 500px;
+        height: 300px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+    .play img, .bookmark img    {
+        width: 50px;
+        height: 50px;
+    }
+    .description {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .text_description {
+        font-size: 18px;
+        line-height: 27px;
+        color: #F6F6F6;
+    }
+    .details {
+        margin-bottom: 20px;
+        /* flex: 0 0 33.333%; */
+    }
+    .result-description {
+        font-size: 24px;
+        line-height: 37px;
+        color: #F6F6F6;
+    }
+
+    /* FORM */
+
+    .update-form {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    .title_update-form {
+        max-width: 460px;
+    }
+    
+    .input[type="text"] {
+        width: 210px;
+        margin-bottom: 50px;
+    }
+    .input[type="text"]:first-child {
+        margin-right: 30px;
+    }
+    .input[type="submit"] {
+        width: 450px;
+    }
+
+    /* FOOTER */
+
+    .footer-item {
+        display: flex;
+    }
+    .links_footer {
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+}

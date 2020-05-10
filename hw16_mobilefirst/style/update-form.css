@@ -21,3 +21,17 @@
     background: #F92251;
     color: white;
 }
+
+.input[placeholder="Name"], .input[placeholder="E-Mail"] {
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 35px;
+}
+
+.input[placeholder="Name"] {
+    background-image: url(../images/name.svg);
+}
+
+.input[placeholder="E-Mail"] {
+    background-image: url(../images/email.svg);
+}
