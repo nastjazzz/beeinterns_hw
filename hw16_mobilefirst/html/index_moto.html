@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link href="../style/style.css" rel="stylesheet">
+        <link href="../style/footer.css" rel="stylesheet">
+        <link href="../style/update-form.css" rel="stylesheet">
+        <link href="../style/content.css" rel="stylesheet">
+        <link href="../style/header.css" rel="stylesheet">
+        <link href="../style/media.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-content">
+                <header class="header">
+                    <picture class="picture">
+                        <source srcset="../images/BurgerMenu.svg" media="(max-width: 767px)" >
+                        <source srcset="../images/BurgerMenu768.svg" media="(max-width: 1023px)">
+                        <img src="../images/domo-kun-logo.png" alt="logo" class="logo">
+                    </picture>
+                    <nav class="nav">
+                        <a href="#" class="nav-links models">Models</a>
+                        <a href="#" class="nav-links">Dimensions</a>
+                        <a href="#" class="nav-links">Facts & Figures</a>
+                        <a href="#" class="nav-links">History</a>
+                        <a href="#" class="nav-links">Reviews</a>
+                    </nav>
+                    <div class="search-form">
+                        <form class="form">
+                            <input type="search" placeholder="Search for details…" class="search-input">
+                        </form>
+                    </div>                    
+                </header>
+                <div class="content">                    
+                    <div class="name">Honda<br>Sport<br> CRF 450RX</div>
+                    <div class="heading">
+                        <div class="heading-item play">
+                            <img src="../images/play.svg" alt="watch">
+                            <button class="heading-button">Watch film</button>
+                        </div>
+                        <div class="heading-item bookmark">
+                            <img src="../images/bookmark.svg" alt="bookmark">
+                            <button class="heading-button">Bookmark for later</button>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <div class="description-item manufacture">
+                            <span class="description__text">Manufacturer</span>
+                            <div class="description__result">Honda</div>
+                        </div>
+                        <div class="description-item production">
+                            <span class="description__text">Production</span>
+                            <div class="description__result">2019</div>
+                        </div>
+                        <div class="description-item engine">
+                            <span class="description__text">Engine</span>
+                            <div class="description__result">0.45 L PGM-FI</div>
+                        </div>
+                        <div class="description-item review">
+                            <span class="description__text">Review</span>
+                            <div class="rating">
+                                <div class="rating__group">
+                                    <input class="rating__star" type="radio" name="review" value="1" aria-label="Плохо">
+                                    <input class="rating__star" type="radio" name="review" value="2" aria-label="Сносно">
+                                    <input class="rating__star" type="radio" name="review" value="3" aria-label="Нормально">
+                                    <input class="rating__star" type="radio" name="review" value="4" aria-label="Хорошо" checked>
+                                    <input class="rating__star" type="radio" name="review" value="5" aria-label="Отлично">
+                                </div>
+                                <span class="rating__value">4.0/5</span>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="update-form">
+                <div class="update-form__wrap">
+                    <div class="update-form__title">
+                        Sign up for our email newsletter and get the latest our company news.
+                        Get free trial for 3 month.
+                    </div>
+                    <form method="post" class="form" action="/posturl/newsletter/">
+                        <input class="input" type="text" name="name" placeholder="Name" pattern="[A-Za-z]{2,30}">
+                        <input class="input" type="text" name="mail" placeholder="E-Mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        <input class="input" type="submit" value="GET STARTED FOR FREE">
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer-item">
+                    <div><a href="#" class="footer__links">Cars</a></div>
+                    <div><a href="#" class="footer__links">Motorcycles</a></div>
+                    <div><a href="#" class="footer__links">Engines</a></div>
+                    <div><a href="#" class="footer__links">Water moto technology</a></div>
+                </div>
+                <div class="author">© 2020, <q>BeeInterns / </q></div>
+            </footer>
+        </div>
+    </body>
+</html>

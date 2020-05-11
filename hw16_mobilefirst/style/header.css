@@ -1,0 +1,58 @@
+.main-content {
+    background-image: url(../images/mobile-background.png);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    border-bottom: 1px solid #A3A3A3;
+}
+
+.picture {
+    margin: 20px 20px 10px 25px;
+}
+
+.nav-links {
+    display: none;
+    color: white;
+
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.nav-links:hover {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    transition: 0.2s;
+}
+
+.models {
+    display: block;
+
+    text-align: center;
+    border-bottom: 4px solid #fff;
+}
+
+.search-form {
+    border-left: 1px solid #A3A3A3;
+}
+
+.search-input {
+    padding-left: 30px;
+    color: #fff;
+    background: none;
+    background-image: url(../images/search\ icon.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 10px;
+}
+
+.search-input::-webkit-input-placeholder { 
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+}

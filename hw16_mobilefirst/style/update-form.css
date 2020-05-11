@@ -1,0 +1,50 @@
+.update-form {
+    background: #1F1F2F;
+    padding: 30px 20px 40px 20px;
+    box-sizing: border-box;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.input:last-child {
+    background: #F92251;
+    color: white;
+}
+
+.input[placeholder="Name"], .input[placeholder="E-Mail"] {
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 35px;
+}
+
+.input[placeholder="Name"] {
+    background-image: url(../images/name.svg);
+}
+
+.input[placeholder="E-Mail"] {
+    background-image: url(../images/email.svg);
+}
+
+.input[placeholder="Name"]:focus, .input[placeholder="E-Mail"]:focus {
+    border: 1.5px solid rgba(249, 34, 81, 0.795);
+    transition: 0.4s;
+}
+
+.input[type="submit"]:hover {
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(255, 0, 55);
+    border: 0.5px solid black;
+    transition: 0.3s;
+}
