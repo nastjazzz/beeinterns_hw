@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="wrapper">
+            <div class="main-content">
                 <header class="header">
                     <picture class="picture">
                         <source srcset="../images/BurgerMenu.svg" media="(max-width: 767px)" >
@@ -36,29 +36,29 @@
                     <div class="name">Honda<br>Sport<br> CRF 450RX</div>
                     <div class="heading">
                         <div class="heading-item play">
-                            <img src="../images/play.svg" alt="">
+                            <img src="../images/play.svg" alt="watch">
                             <button class="heading-button">Watch film</button>
                         </div>
                         <div class="heading-item bookmark">
-                            <img src="../images/bookmark.svg" alt="">
+                            <img src="../images/bookmark.svg" alt="bookmark">
                             <button class="heading-button">Bookmark for later</button>
                         </div>
                     </div>
                     <div class="description">
-                        <div class="details manufacture">
-                            <span class="text_description">Manufacturer</span>
-                            <div class="result-description">Honda</div>
+                        <div class="description-item manufacture">
+                            <span class="description__text">Manufacturer</span>
+                            <div class="description__result">Honda</div>
                         </div>
-                        <div class="details production">
-                            <span class="text_description">Production</span>
-                            <div class="result-description">2019</div>
+                        <div class="description-item production">
+                            <span class="description__text">Production</span>
+                            <div class="description__result">2019</div>
                         </div>
-                        <div class="details engine">
-                            <span class="text_description">Engine</span>
-                            <div class="result-description">0.45 L PGM-FI</div>
+                        <div class="description-item engine">
+                            <span class="description__text">Engine</span>
+                            <div class="description__result">0.45 L PGM-FI</div>
                         </div>
-                        <div class="review">
-                            <span class="text_description">Review</span>
+                        <div class="description-item review">
+                            <span class="description__text">Review</span>
                             <div class="rating">
                                 <div class="rating__group">
                                     <input class="rating__star" type="radio" name="review" value="1" aria-label="Плохо">
@@ -75,11 +75,11 @@
             </div>
             <div class="update-form">
                 <div class="update-form__wrap">
-                    <div class="title_update-form">
+                    <div class="update-form__title">
                         Sign up for our email newsletter and get the latest our company news.
                         Get free trial for 3 month.
                     </div>
-                    <form method="post" class="form">
+                    <form method="post" class="form" action="/posturl/newsletter/">
                         <input class="input" type="text" name="name" placeholder="Name" pattern="[A-Za-z]{2,30}">
                         <input class="input" type="text" name="mail" placeholder="E-Mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                         <input class="input" type="submit" value="GET STARTED FOR FREE">
@@ -88,10 +88,10 @@
             </div>
             <footer class="footer">
                 <div class="footer-item">
-                    <div><a href="#" class="links_footer">Cars</a></div>
-                    <div><a href="#" class="links_footer">Motorcycles</a></div>
-                    <div><a href="#" class="links_footer">Engines</a></div>
-                    <div><a href="#" class="links_footer">Water moto technology</a></div>
+                    <div><a href="#" class="footer__links">Cars</a></div>
+                    <div><a href="#" class="footer__links">Motorcycles</a></div>
+                    <div><a href="#" class="footer__links">Engines</a></div>
+                    <div><a href="#" class="footer__links">Water moto technology</a></div>
                 </div>
                 <div class="author">© 2020, <q>BeeInterns / </q></div>
             </footer>
