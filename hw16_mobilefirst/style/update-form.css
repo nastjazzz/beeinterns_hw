@@ -15,6 +15,7 @@
     margin-bottom: 10px;
     border-radius: 10px;
     border: none;
+    
 }
 
 .input:last-child {
@@ -34,4 +35,16 @@
 
 .input[placeholder="E-Mail"] {
     background-image: url(../images/email.svg);
+}
+
+.input[placeholder="Name"]:focus, .input[placeholder="E-Mail"]:focus {
+    border: 1.5px solid rgba(249, 34, 81, 0.795);
+    transition: 0.4s;
+}
+
+.input[type="submit"]:hover {
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(255, 0, 55);
+    border: 0.5px solid black;
+    transition: 0.3s;
 }

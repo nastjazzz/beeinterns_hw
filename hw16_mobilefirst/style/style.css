@@ -22,3 +22,8 @@ input, button {
     cursor: pointer;
 }
 
+input:invalid {
+    background: #fdd; /* Красный цвет фона */
+}
+
+

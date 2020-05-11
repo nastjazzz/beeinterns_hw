@@ -24,6 +24,12 @@
     font-size: 15px;
 }
 
+.nav-links:hover {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    transition: 0.2s;
+}
+
 .models {
     display: block;
 

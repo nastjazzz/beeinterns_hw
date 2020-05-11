@@ -15,6 +15,16 @@
     margin-bottom: 10px;
 }
 
+.footer__links:active {
+    color: #F92251;
+    transition: 0.5s;
+}
+
+.footer__links:hover {
+    color: white;
+    transition: 0.5s;
+}
+
 .author {
     color: #BAC5D3;
     margin-top: 20px;
