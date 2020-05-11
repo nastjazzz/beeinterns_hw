@@ -16,20 +16,91 @@
     margin-bottom: 10px;
 }
 
+.heading-button {
+    background: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #f6f6f6;
+    font-size: 15px;
+    line-height: 23px;
+}
+
 .text_description {
     font-size: 15px;
     line-height: 23px;
-    color: #F6F;
+    color: #f6f6f6;
 }
+
+/* рейтинг звездочки */
 
 .rating {
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 
-.rating img {
-    width: 15px;
-    height: 15px;
-    margin-right: 10px;
-    vertical-align: middle;
+.rating__group {
+    position: relative;
+    width: 5em;
+    height: 1em;
+    background-image: url(../images/star.svg);
+    background-size: 1em auto;
+    background-repeat: repeat-x;
+}
+
+.rating__star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 1em;
+    font-size: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-size: 1em auto;
+    background-repeat: repeat-x;
+}
+
+/* убирается стандартный фокус браузера */
+
+.rating__star:focus {
+    outline: none;
+}
+
+.rating__star:checked, .rating__star:hover {
+    background-image: url(../images/redstar.svg);
+}
+
+.rating__star:hover ~ .rating__star {
+    background-image: url(../images/star.svg);
+}
+
+.rating__star:nth-of-type(1) {
+    z-index: 5;
+    width: 1em;
+}
+
+.rating__star:nth-of-type(2) {
+    z-index: 4;
+    width: 2em;
+}
+
+.rating__star:nth-of-type(3) {
+    z-index: 3;
+    width: 3em;
+}
+
+.rating__star:nth-of-type(4) {
+    z-index: 2;
+    width: 4em;
+}
+
+.rating__star:nth-of-type(5) {
+    z-index: 1;
+    width: 5em;
+}
+
+.rating__value {
+    margin-left: 10px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -14,65 +14,77 @@
         <div class="container">
             <div class="wrapper">
                 <header class="header">
-                    <div class="burger-menu">
-                        <img src="../images/BurgerMenu.svg">
-                    </div>
-                    <div class="models">Models</div>
+                    <picture class="picture">
+                        <source srcset="../images/BurgerMenu.svg" media="(max-width: 767px)" >
+                        <source srcset="../images/BurgerMenu768.svg" media="(max-width: 1023px)">
+                        <img src="../images/domo-kun-logo.png" alt="logo" class="logo">
+                    </picture>
+                    <nav class="nav">
+                        <a href="#" class="nav-links models">Models</a>
+                        <a href="#" class="nav-links">Dimensions</a>
+                        <a href="#" class="nav-links">Facts & Figures</a>
+                        <a href="#" class="nav-links">History</a>
+                        <a href="#" class="nav-links">Reviews</a>
+                    </nav>
                     <div class="search-form">
                         <form class="form">
                             <input type="search" placeholder="Search for details…" class="search-input">
                         </form>
-                    </div>
+                    </div>                    
                 </header>
                 <div class="content">                    
                     <div class="name">Honda<br>Sport<br> CRF 450RX</div>
                     <div class="heading">
                         <div class="heading-item play">
-                            <img src="../images/play.svg">
-                            <span class="text_description">Watch film</span>
+                            <img src="../images/play.svg" alt="">
+                            <button class="heading-button">Watch film</button>
                         </div>
                         <div class="heading-item bookmark">
-                            <img src="../images/bookmark.svg">
-                            <span class="text_description">Bookmark for later</span>
+                            <img src="../images/bookmark.svg" alt="">
+                            <button class="heading-button">Bookmark for later</button>
                         </div>
                     </div>
-                        <div class="description">
-                            <div class="details manufacture">
-                                <span class="text_description">Manufacturer</span>
-                                <div class="result-description">Honda</div>
-                            </div>
-                            <div class="details production">
-                                <span class="text_description">Production</span>
-                                <div class="result-description">2019</div>
-                            </div>
-                            <div class="details engine">
-                                <span class="text_description">Engine</span>
-                                <div class="result-description">0.45 L PGM-FI</div>
-                            </div>
-                            <div class="review">
-                                <span class="text_description">Review</span>
-                                <div class="rating">
-                                    <img src="../images/red star.png">
-                                    <img src="../images/red star.png">
-                                    <img src="../images/red star.png">
-                                    <img src="../images/star.png">
-                                    <div class="result-description">4.0/5</div>
+                    <div class="description">
+                        <div class="details manufacture">
+                            <span class="text_description">Manufacturer</span>
+                            <div class="result-description">Honda</div>
+                        </div>
+                        <div class="details production">
+                            <span class="text_description">Production</span>
+                            <div class="result-description">2019</div>
+                        </div>
+                        <div class="details engine">
+                            <span class="text_description">Engine</span>
+                            <div class="result-description">0.45 L PGM-FI</div>
+                        </div>
+                        <div class="review">
+                            <span class="text_description">Review</span>
+                            <div class="rating">
+                                <div class="rating__group">
+                                    <input class="rating__star" type="radio" name="review" value="1" aria-label="Плохо">
+                                    <input class="rating__star" type="radio" name="review" value="2" aria-label="Сносно">
+                                    <input class="rating__star" type="radio" name="review" value="3" aria-label="Нормально">
+                                    <input class="rating__star" type="radio" name="review" value="4" aria-label="Хорошо" checked>
+                                    <input class="rating__star" type="radio" name="review" value="5" aria-label="Отлично">
                                 </div>
-                            </div>
+                                <span class="rating__value">4.0/5</span>
+                            </div>                                
                         </div>
                     </div>
                 </div>
+            </div>
             <div class="update-form">
-                <div class="title_update-form">
-                    Sign up for our email newsletter and get the latest our company news.
-                    Get free trial for 3 month.
+                <div class="update-form__wrap">
+                    <div class="title_update-form">
+                        Sign up for our email newsletter and get the latest our company news.
+                        Get free trial for 3 month.
+                    </div>
+                    <form method="post" class="form">
+                        <input class="input" type="text" name="name" placeholder="Name" pattern="[A-Za-z]{2,30}">
+                        <input class="input" type="text" name="mail" placeholder="E-Mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        <input class="input" type="submit" value="GET STARTED FOR FREE">
+                    </form>
                 </div>
-                <form method="post" class="form">
-                    <input class="input" type="text" name="name" placeholder="Name">
-                    <input class="input" type="text" name="mail" placeholder="E-Mail">
-                    <input class="input" type="submit" value="GET STARTED FOR FREE">
-                </form>
-
             </div>
             <footer class="footer">
                 <div class="footer-item">
@@ -81,7 +93,7 @@
                     <div><a href="#" class="links_footer">Engines</a></div>
                     <div><a href="#" class="links_footer">Water moto technology</a></div>
                 </div>
-                <div class="author">© 2020, BeeInterns /</div>
+                <div class="author">© 2020, <q>BeeInterns / </q></div>
             </footer>
         </div>
     </body>

@@ -11,44 +11,38 @@
     border-bottom: 1px solid #A3A3A3;
 }
 
-.burger-menu { 
-    width: 20px;
-    height: 20px;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 20px;
+.picture {
+    margin: 20px 20px 10px 25px;
 }
 
-.burger-menu img {
-    width: 100%;
+.nav-links {
+    display: none;
+    color: white;
+
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
 }
 
 .models {
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    display: block;
 
-    padding-top: 20px;
-    margin-right: 20px;
-
-    font-size: 15px;
+    text-align: center;
     border-bottom: 4px solid #fff;
 }
 
 .search-form {
-    border-left: 1px solid white;
+    border-left: 1px solid #A3A3A3;
 }
 
 .search-input {
-    padding-left: 25px;
-    border: none;
-    cursor: pointer;
+    padding-left: 30px;
     color: #fff;
     background: none;
     background-image: url(../images/search\ icon.svg);
     background-repeat: no-repeat;
     background-position: 10px;
-    outline: none;
+    background-size: 10px;
 }
 
 .search-input::-webkit-input-placeholder { 

@@ -19,3 +19,11 @@
     color: #BAC5D3;
     margin-top: 20px;
 }
+
+q::before { 
+    content: '<';
+}
+
+q::after { 
+    content: '>';
+}
