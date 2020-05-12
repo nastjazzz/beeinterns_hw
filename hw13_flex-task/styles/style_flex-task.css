@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+.container {
+    display: flex;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+
+    padding: 17px 40px 10px 19px;
+}
+
+.title_sidebar {
+    font-size: 14px;
+    margin-bottom: 17px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.title_requirements {
+    width: 195px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #4A4A4A;
+}
+
+.rectangle {
+    width: 195px;
+    height: 165px;
+    margin-bottom: 12px;
+    background-color: rgba(0, 84, 254, 0.04);
+    border-radius: 8px;
+}
